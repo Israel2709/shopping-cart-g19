@@ -10,7 +10,7 @@ const ProductCard = props => {
         <img
           src={picture}
           className='w-100 product-card__image image-fit'
-          alt='...'
+          alt='some picture'
         />
         <div className='card-body d-flex flex-column justify-content-between'>
           <div className='mb-3'>

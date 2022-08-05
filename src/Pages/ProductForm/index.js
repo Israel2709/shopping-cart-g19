@@ -13,7 +13,9 @@ const ProductForm = () => {
   return (
     <div className='row'>
       <div className='col-12 col-md-6 offset-md-3'>
-        <h2>Aquí puedes crear un producto nuevo para vender</h2>
+        <h2 className='product-card'>
+          Aquí puedes crear un producto nuevo para vender
+        </h2>
         <form
           onSubmit={handleSubmit(onSubmit)}
           className='bg-dark text-white border rounded p-3'
